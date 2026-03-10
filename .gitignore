@@ -1,0 +1,46 @@
+# Claude Code 运行时生成的内容
+cache/
+debug/
+file-history/
+paste-cache/
+session-env/
+shell-snapshots/
+tasks/
+telemetry/
+todos/
+plans/
+statsig/
+
+# 历史记录
+history.jsonl
+stats-cache.json
+.last_session_start
+
+# 项目数据（只同步 commands，不同步具体项目）
+projects/
+
+# 插件缓存和配置（从 marketplace 安装，不需要同步）
+plugins/
+# 如果你有本地自定义插件，可以单独保留特定目录
+# !plugins/local/
+
+# IDE 配置
+ide/
+
+# 空配置文件
+config.json
+
+# 临时文件
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# 敏感信息
+*.secret
+*.token
+.env.local
+
+# settings.json 包含敏感的 API token，使用 settings.example.json 作为模板
+settings.json
+commands.zip
