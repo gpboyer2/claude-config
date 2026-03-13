@@ -36,6 +36,9 @@ config.json
 .DS_Store
 Thumbs.db
 
+# 备份文件
+backups/
+
 # 敏感信息
 *.secret
 *.token
